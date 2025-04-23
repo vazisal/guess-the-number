@@ -1,22 +1,22 @@
-<<<<<<< HEAD
-# guess-the-number
-=======
-# 🎯 Угадай число на Python
+# 🎯 Guess the Number — Python Game with GUI & Sound
 
-Простая консольная игра, в которой пользователь должен угадать число, загаданное компьютером.
+A simple but engaging number guessing game built with Python. Includes a clean GUI using `tkinter`, button styling with `ttk`, and sound effects via `pygame`.
 
-## 📌 Описание
+## 📸 Screenshot
 
-- Выбираешь уровень сложности: легкий / средний / сложный
-- Компьютер загадывает число от 1 до X
-- Ты вводишь свои догадки и получаешь подсказки: слишком мало / слишком много
-- В конце программа показывает, за сколько попыток ты угадал
+![Screenshot](screenshot.png)
 
-## ▶️ Как запустить
+## 🔊 Features
 
-1. Убедись, что у тебя установлен Python 3  
-2. Открой терминал и введи:
+- Clean, beginner-friendly interface (Tkinter + ttk)
+- Random number guessing from 1 to 100
+- Sound effects on success and failure (via Pygame)
+- "Play Again" button
+- Support for `.mp3` and `.wav`
+
+## 🚀 How to Run
 
 ```bash
-python3 guess.py
->>>>>>> 0781632 (Первый коммит: игра Угадай число)
+git clone https://github.com/vazisal/guess-the-number.git
+cd guess-the-number
+python3 guess_gui.py
