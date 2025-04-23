@@ -3,8 +3,7 @@
 A simple but engaging number guessing game built with Python. Includes a clean GUI using `tkinter`, button styling with `ttk`, and sound effects via `pygame`.
 
 ## 📸 Screenshot
-
-![Screenshot](screenshot.png)
+![Game screenshot](screenshot_en.png)
 
 ## 🔊 Features
 
